@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border:border-box;
+}
+.t{
+  background-color: beige; 
+}
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 10px 5px 10px 5px darkgoldenrod;
+    border-radius: 50px;
+    border: 1px solid darkgoldenrod;
+    width: 300px;
+}
+figure img{
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top:50px ;
+}
+
+figcaption{
+    margin-top: 50px;
+}
+.t h1{
+    text-align: center;
+    box-shadow: 10px 5px 10px 5px darkgoldenrod;
+    border-radius: 50px;
+    border: 1px solid darkgoldenrod;
+}
+.f {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    padding: 20px;
+}
+body{
+    background-color: darkgoldenrod;
+}
+
