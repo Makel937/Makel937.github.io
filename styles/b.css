@@ -4,16 +4,16 @@
     border:border-box;
 }
 .t{
-  background-color: beige; 
+  background-color: rgb(130, 66, 194); 
 }
 figure{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    box-shadow: 10px 5px 10px 5px darkgoldenrod;
+    box-shadow: 10px 5px 10px 5px rgba(189, 167, 42, 0.651);
     border-radius: 50px;
-    border: 1px solid darkgoldenrod;
+    border: 1px solid rgba(189, 167, 42, 0.651);
     width: 300px;
 }
 figure img{
@@ -28,9 +28,9 @@ figcaption{
 }
 .t h1{
     text-align: center;
-    box-shadow: 10px 5px 10px 5px darkgoldenrod;
+    box-shadow: 15px 5px 15px 5px rgba(189, 167, 42, 0.651);
     border-radius: 50px;
-    border: 1px solid darkgoldenrod;
+    border: 1px solid rgba(189, 167, 42, 0.651);
 }
 .f {
     display: flex;
@@ -39,6 +39,6 @@ figcaption{
     padding: 20px;
 }
 body{
-    background-color: darkgoldenrod;
+    background-color: rgba(189, 167, 42, 0.651);
 }
 
