@@ -1,0 +1,286 @@
+.t{
+    border: 3px solid darkslategray;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(124, 160, 160);
+}
+.irn{
+    background-color: rgb(124, 160, 160);
+}
+.a{
+    text-decoration: none;
+    color: azure;
+    margin-right: 40px;
+    font-size: 20px;
+}
+.a:hover{
+    color: aquamarine;
+}
+.f{
+    text-decoration: none;
+    color: azure;
+    margin-right: 40px;
+    font-size: 20px;
+}
+.f:hover{
+    color: aquamarine;
+}
+.hc{
+    text-decoration: none;
+    color: azure;
+    margin-right: 40px;
+    font-size: 20px;
+}
+.hc:hover{
+    color: aquamarine;
+}
+.l{
+    text-decoration: none;
+    color: azure;
+    margin-right: 40px;
+    font-size: 20px;
+}
+.l:hover{
+    color: aquamarine;
+}
+.irn span{
+    color: azure;
+    margin-right: 120px;
+    font-size: 30px;
+}
+.o{
+    border: 1px solid darkslategray ;
+    border-radius: 10px;
+}
+.wi{
+    color: azure;
+    position: absolute;
+    top: 25%;
+    right: 14%;
+    font-size: 100px;
+}
+.hi{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background-image: url(/img/r.jpg);
+}
+
+.ab{
+    background-color: lightgray;
+}
+.ail{
+    display: flex;
+    flex-direction: row;
+}
+.ah{
+    font-size: 50px;
+    text-align: center;
+}
+.al{
+    height: 3px;
+    width: 300px;
+    border: 1px solid darkslategrey;
+}
+.ai{
+    width: 350px;
+    height: 350px;
+    border: 3px solid rgb(124, 160, 160);
+    border-radius: 35px;
+}
+.ai:hover{
+    content: url(/img/r2.jpg);
+}
+.alo{
+    text-align: justify;
+    line-height: 3rem;
+    font-size: 22px;
+}
+
+.food{
+    text-align: center;
+    font-size: 50px;
+}
+.fo1{
+    display: flex;
+    flex-direction: row;
+}
+.c{
+    border:2px solid darkslategrey;
+    border-radius: 10px;
+    background-color: grey;
+    color: azure;
+    font-size: 20px;
+}
+.c img{
+    width: 100%;
+    height: 245px;
+}
+.c button{
+    width: 35%;
+}
+.j{
+    border:2px solid darkslategrey;
+    border-radius: 10px;
+    background-color: grey;
+    color: azure;
+    font-size: 20px;
+}
+.j img{
+    width: 100%;
+    height: 245px;
+}
+.j button{
+    width: 35%;
+}
+.fu{
+    border:2px solid darkslategrey;
+    border-radius: 10px;
+    background-color: grey;
+    color: azure;
+    font-size: 20px;
+}
+.fu img{
+    width: 100%;
+    height: 245px;
+}
+.fu button{
+    width: 35%;
+}
+.fo2{
+    display: flex;
+    flex-direction: row;
+}
+.y{
+    border:2px solid darkslategrey;
+    border-radius: 10px;
+    background-color: grey;
+    color: azure;
+    width: 400px;
+    font-size: 20px;
+}
+.y img{
+    width: 100%;
+    height: 245px;
+}
+.y button{
+    width: 35%;
+}.w{
+    border:2px solid darkslategrey;
+    border-radius: 10px;
+    background-color: grey;
+    color: azure;
+    margin-right: 1px;
+    width: 400px;
+    font-size: 20px;
+}
+.w img{
+    width: 100%;
+    height: 245px;
+}
+.w button{
+    width: 35%;    
+}
+.p{
+    border:2px solid darkslategrey;
+    border-radius: 10px;
+    background-color: grey;
+    color: azure;
+    width: 400px;
+    font-size: 20px;
+}
+.p img{
+    width: 100%;
+    height: 245px;
+}
+.p button{
+    width: 35%;
+}
+
+
+
+.mhc{
+    margin: none;
+}
+.h_c{
+    text-align: center;
+    font-size: 50px
+}
+.hcb{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+}
+.c1{
+    margin: 1px;
+    border: 1px solid darkslategrey;
+    border-radius: 10px;
+    width: 400px;
+}
+.c1 img{
+    width: 100%;
+    height: 200px;
+}
+.c2{
+    margin: 1px;
+    border: 1px solid darkslategrey;
+    border-radius: 10px;
+    width: 400px;
+}
+.c2 img{
+    width: 100%;
+    height: 200px;
+}
+.c3{
+    margin: 1px;
+    border: 1px solid darkslategrey;
+    border-radius: 10px;
+    width: 400px;
+}
+.c3 img{
+    width: 100%;
+    height: 200px;
+}
+.c4{
+    margin: 1px;
+    border: 1px solid darkslategrey;
+    border-radius: 10px;
+    width: 400px;
+}
+.c4 img{
+    width: 100%;
+    height: 200px;
+}
+
+.cont{
+    gap:5%;
+    display: flex;
+    padding: 20px;
+    outline: 2px solid darkslategrey;
+}
+.cm{
+    outline: 1px solid darkslategrey;
+    border-radius: 25px;
+}
+.cf{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.cf input{
+    width: 300px;
+    height: 5vh;
+}
+.cf textarea{
+    height: 25vh;
+}
+.cf button{
+    height: 5vh;
+    font-weight: bold;
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
