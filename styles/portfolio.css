@@ -1,0 +1,162 @@
+.p1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: cadetblue;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.p1m{
+    font-size: 33px;
+    margin-right: 280px;
+    color: aliceblue;
+}
+.p1a{
+    font-size: 20px;
+    margin-right: 35px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.p1a:hover{
+    color: cyan;
+}
+
+.p1hi{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-image: url(/img//port2.jpg);
+}
+.p1w button{
+    position: absolute;
+    top: 58%;
+    right: 50%;
+    width: 150px;
+    height: 30px;
+    border: 1px solid aliceblue;
+    background-color: cadetblue;
+}
+.p1w button:hover{
+    color: cyan;
+}
+.p1w2{
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    color: aliceblue;
+}
+.p1w2 h1, .p1w2 h4{
+    text-align: center;
+}
+
+
+.pa{
+    text-align: center;
+    font-size: 50px;
+}
+.pl{
+    width: 150px;
+    align-self: center;
+    color: cyan;
+}
+.p2ma{
+    display: flex;
+    flex-direction: row;
+}
+.p2ma img{
+    width: 400px;
+    height: 350px;
+    border: 1px solid cadetblue;
+    border-radius: 50px;
+}
+.p2p h1{
+    text-align: center
+}
+.p2p p{
+    line-height: 35px;
+    font-size: 20px;
+}
+
+
+.p3m{
+    display: flex;
+    flex-direction: row;
+}
+.p3m1{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid cadetblue ;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-right: 40px;
+}
+.p3m1 img{
+    width: 400px;
+    height: 300px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.p3m2{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid cadetblue ;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-right: 40px;
+}
+.p3m2 img{
+    width: 400px;
+    height: 300px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+.mw{
+    display: flex;
+    flex-direction: row;
+}
+.mw img{
+    width: 500px;
+    height: 500px;
+    border: 5px solid cadetblue;
+    border-radius: 50px;
+}
+
+
+.cp{
+    text-align: center;
+}
+.cf{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+}
+.cf input{
+    width: 300px;
+    height: 5vh;
+    border: 1px solid cadetblue;
+}
+.n{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cf textarea{
+    height: 25vh;
+    width: 300px;
+    border: 1px solid cadetblue;
+}
+.cf button{
+    height: 5vh;
+    width: 300px;
+    font-weight: bold;
+    background-color: cadetblue;
+    color: white;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px ;
+    border: none;
+}
+.cf button:hover{
+    color: cyan;
+}
