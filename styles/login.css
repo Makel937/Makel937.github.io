@@ -17,10 +17,10 @@ body{
 .m{
     width: 420px;
     height: 320px;
-    background: transparent ;
+    background: lightcyan;
     border: 2px solid rgba(255, 255, 255, .2);
-    backdrop-filter: blur;
     color: black;
+    border: 1px solid cyan;
     border-radius: 40px;
 }
 .m h1{
