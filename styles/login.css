@@ -1,5 +1,6 @@
 *{
     background-image: url(/img/cyan.jpg);
+    background-size: cover;
 }
 .b{
     background: linear-gradient(lightblue,lightcyan,aliceblue,lightcyan,lightblue);
@@ -17,4 +18,5 @@
 .w{
     justify-content: space-between;
     text-decoration: none;
+    font-size: 10px;
 }
