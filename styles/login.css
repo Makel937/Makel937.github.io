@@ -1,22 +1,79 @@
-*{
+body{
     background-image: url(/img/cyan.jpg);
     background-size: cover;
+    text-decoration: none;
+}
+.t{
+    font-size: 40px;
+    text-align: center;
 }
 .b{
     background: linear-gradient(lightblue,lightcyan,aliceblue,lightcyan,lightblue);
     background-size: cover;
-    margin-right: 430px;
-    min-height: 80vh;
+    width: 400px;
+    height: auto;
+    margin-left: 30%;
+    margin-top: 13%;
+    border: 1px solid white;
+    border-radius: 50px;
     align-items: center;
 }
-.input{
+form{
+    margin-left: 10%;
+}
+.i{
+    margin-left: 25%;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    transition: 2s;
+}
+.i:hover{
+    margin-left: 23%;
+    border:3px solid cyan;
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    transition: 2s;
+}
+input{
     width: 300px;
     height: 45px;
+    margin-bottom: 10px;
+    margin-right: 40px;
     border-radius: 20px;
     border: 1px solid rgb(191, 255, 255);
+    color: black;
+    transition: 3s;
+}
+input:hover{
+    border: 3px solid cyan;
+    transition: 3s;
+
+}
+button{
+    width: 300px;
+    height: 45px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(191, 255, 255);
+    color: black;
+    transition: 3s;
+}
+button:hover{
+    color: white;
+    background:black;
+    border: 8px solid  cyan;
+    transition: 3s;
 }
 .w{
-    justify-content: space-between;
-    text-decoration: none;
     font-size: 10px;
+    text-align: center;
+    text-decoration:none ;
+    transition: 2s;
+}
+.w a:hover{
+   font-size: 15px;
+   color: cyan; 
+   transition: 2s;
 }
