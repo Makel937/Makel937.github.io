@@ -1,88 +1,20 @@
 *{
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 90vh;
-    background: url(/img/cyan.jpg);
-    background-size:cover ;
-    background-position: center;
-}
-
-.m{
-    width: 420px;
-    height: 320px;
-    background: lightcyan;
-    border: 2px solid rgba(255, 255, 255, .2);
-    color: black;
-    border: 1px solid cyan;
-    border-radius: 40px;
-}
-.m h1{
-    font-size: 30px;
-    text-align: center;
-}
-.m .pe {
-    width:100% ;
-    height: 50px;
-    margin: 30px 0;
-}
-.pe input{
-    width: 100%;
-    height: 40px;
-    margin-bottom: 30px ;
-    padding: 20px 45px 20px 20px;
-    background: lightcyan;
-    border: none;
-    outline: none;
-    border: 2px solid cyan;
-    border-radius: 30px;
-}
-.pe input::placeholder{
-    color: black;
-}
-.g{
-    display: flex;
-    justify-content: space-between;
-    font-size: 15px;
-    margin: -15px 0 15px;
-}
-.g label input{
-    margin-right: 5px;
-}
-.g a{
-    color: black;
-    text-decoration: none;
-}
-.g a:hover{
-    text-decoration: underline;
+    background-image: url(/img/cyan.jpg);
 }
 .b{
-    width: 100%;
-    height: 40px;
-    background: lightcyan;
-    border:none;
-    outline: none;
-    border-radius: 30px;
-    box-shadow: 0 0 10px;
-    cursor: pointer;
-
+    background: linear-gradient(lightblue,lightcyan,aliceblue,lightcyan,lightblue);
+    background-size: cover;
+    margin-right: 430px;
+    min-height: 80vh;
+    align-items: center;
 }
-.n{
-    font-size: 10px;
-    text-align: center;
-    margin-top: 15px 0 10px;
+.input{
+    width: 300px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid rgb(191, 255, 255);
 }
-.n a{
-    color: black;
+.w{
+    justify-content: space-between;
     text-decoration: none;
-    font-weight: bold;
-}
-.n a:hover{
-    text-decoration: underline;
 }
