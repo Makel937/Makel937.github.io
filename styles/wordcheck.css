@@ -1,0 +1,29 @@
+body{
+    margin-left: 400px;
+    margin-top:200px;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+}
+#sentence{
+    height: 50px;
+    width: 250px;
+    margin: 7px;
+}
+#word{
+    width: 250px;
+    height: 20px;
+    margin: 7px;
+}
+#btn{
+   width: 258px;
+    height: 20px;
+    margin: 7px; 
+}
+#display{
+    width: 258px;
+    height: 20px;
+    margin: 7px; 
+    border: 1px solid black;
+}
