@@ -19,10 +19,10 @@ function multiplication(){
     let numTwo = Number(document.querySelector("#numTwo").value);
     output.innerText = numOne * numTwo;
 }
-function division(){
+function division() {
     let numOne = Number(document.querySelector("#numOne").value);
     let numTwo = Number(document.querySelector("#numTwo").value);
-    output.innerText = numTwo !== 0 ? numOne / numTwo : "Cannot divide by zero";
+    output.innerText = numOne / numTwo;
 }
 
 subtract.onclick = subtraction;
