@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(243, 243, 243);
+}
+h1{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: white;
+    background-color: fuchsia;
+}
+.main{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 380px;
+    border: 1px solid fuchsia;
+    border-radius: 30px;
+    box-shadow: 1px 2px 5px 4px rgba(90, 90, 90, 0.27);
+    margin-left:350px ;
+    margin-top:10px ;
+    padding: 20px;
+}
+.main input{
+    width: 220px;
+    height: 35px;
+    border: 1px solid fuchsia;
+    border-radius:5px ;
+    margin: 10px;
+    box-shadow: 1px 2px 5px 4px rgba(90, 90, 90, 0.27);
+    transition: .2s;
+}
+.main input:hover{
+    border: 3px solid fuchsia;
+    box-shadow: 1px 2px 5px 4px fuchsia;
+    transition: .2s;
+}
+.c{
+    height: 10px;
+    width: 10px;
+    border-radius: 1px;
+    
+}
+.tmain{
+    display: flex;
+    flex-direction: row;
+}
+.tmain input {
+    width: 100px;
+    height: 35px;
+    border: 1px solid fuchsia;
+    border-radius:5px ;
+    margin: 12px;
+    box-shadow: 1px 2px 5px 3px rgba(90, 90, 90, 0.27);
+    transition: .2s;
+}
+.tmain input:hover{
+    border: 3px solid fuchsia;
+    box-shadow: 1px 2px 5px 4px fuchsia;
+    transition: .2s;
+}
+#submit{
+    width: 220px;
+    height: 35px;
+    border: 1px solid fuchsia;
+    border-radius:5px ;
+    margin: 10px;
+    background-color: fuchsia;
+    color: white;
+    transition: .2s;
+}
+#submit:hover{
+    border: 3px solid fuchsia;
+    box-shadow: 1px 2px 5px 4px fuchsia;
+    transition: .2s;
+}
+h3{
+    color: fuchsia;
+}
+#none{
+    background-color: aliceblue;
+    border: 1px solid fuchsia;
+    border-radius: 20px;
+    width: 220px;
+    height: 120px;
+    padding: 10px;
+    margin-left:380px ;
+    margin-top: 10px;
+    box-shadow: 1px 2px 5px 4px rgba(90, 90, 90, 0.27);
+}
+#nam{
+    width: 180px;
+    height: 30px;
+    border: 1px solid fuchsia;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+}
+#em{
+    width: 180px;
+    height: 30px;
+    border: 1px solid fuchsia;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+}
